@@ -1,0 +1,90 @@
+header {
+    padding: 20px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  
+  /* Custom styles for the hero section */
+  #hero {
+    /* background-image: url('images/hero-bg.jpg'); */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+  }
+  
+  /* Custom styles for other sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Custom styles for the footer */
+  footer {
+    padding: 20px 0;
+  }
+  
+  .social-icons img {
+    width: 40px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .navbar-nav .nav-item .nav-link {
+      font-size: 16px;
+    }
+  
+    #hero h1 {
+      font-size: 28px;
+    }
+  
+    #hero p {
+      font-size: 16px;
+    }
+  
+    section {
+      padding: 40px 0;
+    }
+  
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px; /* Adjust as needed */
+  }
