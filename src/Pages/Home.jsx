@@ -2,10 +2,10 @@ import React from 'react';
 
 const Home = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = process.env.PUBLIC_URL + '/resume.pdf'; // Assuming your resume is in the public folder
+    const resumeUrl = process.env.PUBLIC_URL + '/Jadhav_Sushant_Resume.pdf'; // Assuming your resume is in the public folder
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
-    anchor.download = 'resume.pdf'; // Set the download filename
+    anchor.download = 'Jadhav_Sushant_Resume'; // Set the download filename
     anchor.click();
   };
   return (

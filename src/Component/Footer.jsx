@@ -10,8 +10,8 @@ const Footer = () => {
               </div>
                <div class="col-md-6 text-center text-md-right">
                   <ul class="list-inline mb-0">
-                     <li class="list-inline-item"><a href="#"><img src="images/github.png" alt="GitHub"/></a></li>
-                     <li class="list-inline-item"><a href="#"><img src="images/linkedin.png" alt="LinkedIn"/></a></li>
+                     <li class="list-inline-item"><a href="https://github.com/sushantjadhav416"><img alt="GitHub"/></a></li>
+                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/sushant-jadhav-3209a521a/"><img alt="LinkedIn"/></a></li>
                   </ul>
               </div>
          </div>
