@@ -1,4 +1,4 @@
-# Portfolio application Devlopment and Dockerization 
+# Portfolio application Development and Dockerization 
 
 
 
