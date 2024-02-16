@@ -15,8 +15,8 @@ const Home = () => {
             <h1 className="display-1">Software Engineer at HCL Technologies</h1>
             <p className="lead">Passionate about creating innovative solutions.</p>
           </div>
-          <button id="mybt" class="btn btn-secondary" onClick={handleDownloadResume}>Download Resume</button>
        </section>
+       <button id="mybt" class="btn btn-secondary" onClick={handleDownloadResume}>Download Resume</button>
    </div>
   )
 }
