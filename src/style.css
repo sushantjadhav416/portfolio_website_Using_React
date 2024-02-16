@@ -15,42 +15,51 @@ header
 
   .MHome{
     background-image: url('portfolio_home.gif');
-    background-size: cover; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
+    background-size: 100% 100%; 
+    background-position: center center; 
     background-repeat: no-repeat; 
-    height: 800px;                          /* Adjust as needed */
+    height: 800px;                             
   }
+
+  /* body{
+    background-image: url('portfolio_home.gif');
+    background-size: 100%; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    height: 800px;  
+  } */
 
   .MyAbout{
     background-image: url('animation.gif');
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     background-repeat: no-repeat; 
-    height: 800px;                          /* Adjust as needed */
+    height: 800px;                           
   }
 
   #hero {
     /* background-image: url('images/hero-bg.jpg'); */
     background-size: cover;
     background-position: center;
-    padding: 100px 100px;
+    padding: 20px 20px;
+    margin-left: 150px;
   }
   
   #hero h1 {
     font-size: 56px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(233, 226, 226);
+    margin-left: 100px;
   }
   
   #hero p {
     font-size: 28px;
-    color: white;
+    color: rgb(240, 229, 229);
+    margin-left: 100px;
   }
   
   /* Custom styles for other sections */
-  section {
-    padding: 0px 0;
-  }
+  
   
   section h2 {
     font-size: 28px;
@@ -77,13 +86,12 @@ header
     }
   
     #hero h1 {
-      font-size: 30px;
+      font-size: 20px;
       color: white;
-
     }
   
     #hero p {
-      font-size: 16px;
+      font-size: 12px;
       color: white;
     }
   
@@ -132,9 +140,18 @@ header
     padding: 50px 0;
 
   }
+  .git{
+      height: 100%;
+  }
+
+  .linkd{
+     height: 100%;
+  }
+
    .mblock{
      width: 60%;
    }
+
   .Box_main{
     width: 120%;
     background-color: #0b0a0a;
@@ -156,5 +173,10 @@ header
     color:#fff;
     line-height: 1.6;
 
+  }
+
+  #mybt{
+      margin-top: 150px;
+      margin-left: 100px;
   }
   
