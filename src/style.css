@@ -15,10 +15,11 @@ header
 
   .MHome{
     background-image: url('portfolio_home.gif');
-    background-size: 100% 100%; 
+    background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    height: 800px;                             
+    height: auto;  
+    padding-bottom: 200px;                           
   }
 
   /* body{
@@ -31,10 +32,11 @@ header
 
   .MyAbout{
     background-image: url('animation.gif');
-    background-size: cover; /* Adjust as needed */
+    background-size: cover;
     background-position: center; /* Adjust as needed */
     background-repeat: no-repeat; 
-    height: 800px;                           
+    height: auto;   
+    padding: 50px;                        
   }
 
   #hero {
