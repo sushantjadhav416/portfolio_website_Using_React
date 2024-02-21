@@ -14,7 +14,7 @@ header
   /* Custom styles for the hero section */
 
   .MHome{
-    background-image: url('portfolio_home.gif');
+    background-image: url('./Images/Thats_me_2.webp');
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -37,6 +37,21 @@ header
     background-repeat: no-repeat; 
     height: auto;   
     padding: 50px;                        
+  }
+  .Mycontact{
+    background-image: url('./Images/YourName-CoverImage.avif');
+    background-size: cover;
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; 
+    height: auto;   
+    padding: 50px;                        
+  }
+
+  .Mycontact p{
+    color: #fff;
+  }
+  .Mycontact h3{
+    color: #fff;
   }
 
   #hero {
@@ -152,6 +167,7 @@ header
 
    .mblock{
      width: 60%;
+     margin-left: 200px;
    }
 
   .Box_main{
