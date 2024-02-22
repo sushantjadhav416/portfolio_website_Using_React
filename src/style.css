@@ -16,10 +16,10 @@ header
   .MHome{
     background-image: url('./Images/Thats_me_2.webp');
     background-size: cover; 
-    background-position: center center; 
+    background-position: center; 
     background-repeat: no-repeat; 
     height: auto;  
-    padding-bottom: 200px;                           
+    padding-bottom: 300px;                           
   }
 
   /* body{
@@ -33,18 +33,18 @@ header
   .MyAbout{
     background-image: url('animation.gif');
     background-size: cover;
-    background-position: center; /* Adjust as needed */
+    background-position: center; 
     background-repeat: no-repeat; 
     height: auto;   
-    padding: 50px;                        
+    padding: 100px;                        
   }
   .Mycontact{
     background-image: url('./Images/YourName-CoverImage.avif');
     background-size: cover;
-    background-position: center; /* Adjust as needed */
+    background-position: center; 
     background-repeat: no-repeat; 
     height: auto;   
-    padding: 50px;                        
+    padding: 100px;                        
   }
 
   .Mycontact p{
