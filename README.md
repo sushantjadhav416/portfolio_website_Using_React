@@ -2,7 +2,7 @@
 This is portfolio application built using React .
 
 ## Prerequisites:
-- React application Developed 
+- React application 
 - Docker Installed on your system.
 
 ## Containerization of Application
