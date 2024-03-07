@@ -4,8 +4,13 @@ header
 }
   
   .navbar-brand {
+
     font-size: 24px;
+    
   }
+
+  
+  
   
   .navbar-nav .nav-item .nav-link {
     font-size: 18px;
@@ -14,7 +19,7 @@ header
   /* Custom styles for the hero section */
 
   .MHome{
-    background-image: url('./Images/Thats_me_2.webp');
+    background-image: url('./portfolio_home.gif');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -125,7 +130,7 @@ header
   footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 0px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -197,4 +202,4 @@ header
       margin-top: 350px;
       margin-left: 100px;
   }
-  
+
