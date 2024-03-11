@@ -11,11 +11,16 @@ const Home = () => {
   return (
     <div className="MHome">
         <section id="hero">
-          <div className="container text-right">
+          <div id ="myHero"className="container text-right">
             <h1 className="display-1">Software Engineer at HCL Technologies</h1>
             <p className="lead">Passionate about creating innovative solutions.</p>
           </div>
        </section>
+
+       <div id="HireMe" className="left">
+        <h2>Hire me</h2>
+       </div>
+
        <button id="mybt" class="btn btn-secondary" onClick={handleDownloadResume}>Download Resume</button>
    </div>
   )

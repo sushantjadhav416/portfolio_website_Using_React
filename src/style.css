@@ -67,6 +67,7 @@ header
     margin-left: 150px;
   }
   
+  
   #hero h1 {
     font-size: 56px;
     margin-bottom: 20px;
@@ -82,6 +83,10 @@ header
   
   /* Custom styles for other sections */
   
+  #HireMe{
+    margin-left: 80px;
+    color: white;
+  }
   
   section h2 {
     font-size: 28px;
@@ -151,6 +156,7 @@ header
     cursor: pointer;
     justify-content: center;
     background-position: center;
+    margin-bottom: 100px;
 
   }
   

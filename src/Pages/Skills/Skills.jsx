@@ -10,7 +10,7 @@ import './skill_Style.scss';
 const Skills = () => {
   return (
     <section id="skills" className="skills">
-    <div className="skills__content-wrapper">
+      <div className="skills__content-wrapper">
         {skillsData.map((item, i) => (
           <div key={i} className="skills__content-wrapper__inner-content">
             <Animate
