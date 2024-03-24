@@ -13,6 +13,7 @@ import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import About_me from './Pages/About_me';
 import Projects from './Pages/Projects';
+import Skills from './Pages/Skills/Skills';
 import Footer from './Component/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/Skills" element={<Skills/>}/>
             <Route path="/About" element={<About_me/>}/>
             <Route path="/projects" element={<Projects/>}/>
         </Routes> 

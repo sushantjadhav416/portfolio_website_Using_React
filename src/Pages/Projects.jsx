@@ -12,9 +12,9 @@ const Projects = () => {
       <div class="carousel-inner">
         <div class="carousel-item active">
            <div class="container">
-            <h1>E commerce Web Applications Development and Deployment using Automation Workflows</h1>
+            <h1>E commerce Web Applications Development and Deployment using Automation Workflow</h1>
             <h2>Description:</h2>
-            <p></p>
+            <p>This is an E Commerce Web Application Developed in ASP.NET MVC with CI-CD Jenkins pipline and Github actions CI-CD workflow. This is Two teir ASP.NET MVC based web application containerize using Docker and continously Deployed on AKS Using Argo cd Gitops Tool</p>
             <div className="Box_main">
               <img class="mblock" src={require('../Images/Project1_e-shop.png')} alt="E commerce Web Applications"/>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
           <h2>Description:</h2>
           <p> The java-based Bank Management System is a robust software application built using SWing, AWT, and JDBC Java FramWorks. This System is responsible for optimizing various banking operations. Providing a user-friendly interface for efficient management of customer accounts, transactions, and financial processes.</p>
             <div className="Box_main">
-              <img class="mblock" src={require('../Images/Project1_e-shop.png')} alt="E commerce Web Applications"/>
+              <img class="mblock" src={require('../Images/BankManagement_sys.png')} alt="E commerce Web Applications"/>
             </div>
            </div>
           </div>

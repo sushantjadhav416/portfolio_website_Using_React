@@ -2,7 +2,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <>
+    <div class="Mycontact">
+
     <section class="ftco-section">
        <div class="container">
     <div class="row justify-content-center">
@@ -52,9 +53,9 @@ const Contact = () => {
     <div class="contact-wrap">
     <h3 class="mb-4 text-center">Get in touch with me</h3>
     <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
-    <div id="form-message-success" class="mb-4 w-100 text-center">
+    {/* <div id="form-message-success" class="mb-4 w-100 text-center">
     Your message was sent, thank you!
-    </div>
+    </div> */}
     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
     <div class="row">
     <div class="col-md-12">
@@ -101,7 +102,7 @@ const Contact = () => {
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"854c80e0c919a73f","version":"2024.2.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
     
     
-   </>
+   </div>
   )
 }
 
