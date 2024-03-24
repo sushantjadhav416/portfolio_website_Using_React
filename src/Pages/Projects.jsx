@@ -34,7 +34,7 @@ const Projects = () => {
           <div class="container">
             <h1>Fantacy Cricket Game Using python Qt Framwork and SQL-Lite as Backend</h1>
             <div className="Box_main">
-              <img class="mblock" src={require('../Images/Project1_e-shop.png')} alt="E commerce Web Applications"/>
+              <img class="mblock" src={require('../Images/MY_Fantacy_app.jpg')} alt=""/>
             </div>
           </div>
         </div>
