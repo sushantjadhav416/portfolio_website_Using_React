@@ -74,13 +74,13 @@ header
   #hero h1 {
     font-size: 56px;
     margin-bottom: 20px;
-    color: rgb(233, 226, 226);
+    color: rgb(253, 251, 251);
     margin-left: 100px;
   }
   
   #hero p {
     font-size: 28px;
-    color: rgb(240, 229, 229);
+    color: rgb(251, 251, 252);
     margin-left: 100px;
   }
   
@@ -169,7 +169,7 @@ header
 
   .about-me {
     padding: 50px 0;
-
+   
   }
   .git{
       height: 100%;
@@ -201,7 +201,7 @@ header
   }
   
   .about-me p {
-    font-size: 18px;
+    font-size: 22px;
     color:#fff;
     line-height: 1.6;
 

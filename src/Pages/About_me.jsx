@@ -5,11 +5,11 @@ const About_me = () => {
     <div class="MyAbout">
     <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-8 offset-md-1">
         
            <div class="about-me">
             <h2>About Me</h2>
-            <p class="text-inline">
+            <p class="text-left">
               A seasoned IT professional with strong knowledge, teamwork skills, and coordination capabilities, passionate about achieving goals. Experienced in developing web applications using C#, OOP, ASP.Net, Visual Studio, and ASP.NET MVC Web APIs. Additionally, I have a keen interest in implementing DevOps practices using tools like Docker, Kubernetes, and Jenkins. I am currently seeking a challenging position to leverage my skills and contribute to the success of an innovative organization.
             </p>
            </div>
