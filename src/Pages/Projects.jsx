@@ -16,7 +16,7 @@ const Projects = () => {
             <h2>Description:</h2>
             <p>This is an E Commerce Web Application Developed in ASP.NET MVC with CI-CD Jenkins pipline and Github actions CI-CD workflow. This is Two teir ASP.NET MVC based web application containerize using Docker and continously Deployed on AKS Using Argo cd Gitops Tool</p>
             <div className="Box_main">
-              <img class="mblock" src={require('../Images/Project1_e-shop.png')} alt="E commerce Web Applications"/>
+              <a href="https://github.com/sushantjadhav416/E-shop_project"><img class="mblock" src={require('../Images/Project1_e-shop.png')} alt="E commerce Web Applications"/></a>
             </div>
            </div>
         </div>
@@ -26,7 +26,7 @@ const Projects = () => {
           <h2>Description:</h2>
           <p> The java-based Bank Management System is a robust software application built using SWing, AWT, and JDBC Java FramWorks. This System is responsible for optimizing various banking operations. Providing a user-friendly interface for efficient management of customer accounts, transactions, and financial processes.</p>
             <div className="Box_main">
-              <img class="mblock" src={require('../Images/BankManagement_sys.png')} alt="E commerce Web Applications"/>
+              <a href="https://github.com/sushantjadhav416/BankMangmentSystem"><img id="Bank" src={require('../Images/BankManagement_sys.png')} alt="E commerce Web Applications"/></a>
             </div>
            </div>
           </div>
@@ -34,7 +34,7 @@ const Projects = () => {
           <div class="container">
             <h1>Fantacy Cricket Game Using python Qt Framwork and SQL-Lite as Backend</h1>
             <div className="Box_main">
-              <img class="mblock" src={require('../Images/MY_Fantacy_app.jpg')} alt=""/>
+              <a href="https://github.com/sushantjadhav416/Fantacy_Cricket_Game_SVJ"><img class="FS" src={require('../Images/MY_Fantacy_app.jpg')} alt=""/></a>
             </div>
           </div>
         </div>

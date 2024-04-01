@@ -179,9 +179,19 @@ header
      height: 100%;
   }
 
-   .mblock{
-     width: 60%;
-     margin-left: 200px;
+  .mblock{
+     width: 50%;
+     margin-left: 100px;
+   }
+
+   #Bank{
+    width: 50%;
+    margin-left: 100px;
+   }
+
+   .Fs{
+    width: 50%;
+    margin-left: 100px;
    }
 
   .Box_main{
@@ -212,3 +222,4 @@ header
       margin-left: 100px;
   }
 
+  
