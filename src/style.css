@@ -37,7 +37,7 @@ header
   } */
 
   .MyAbout{
-    background-image: url('bluewave.gif');
+    /* background-image: url('bluewave.gif'); */
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 

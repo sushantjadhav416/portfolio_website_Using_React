@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = process.env.PUBLIC_URL + '/Jadhav_Sushant_Resume.pdf'; // Assuming your resume is in the public folder
+    const resumeUrl = process.env.PUBLIC_URL + '/Jadhav_Sushant_Resume.pdf'; // Give url path of resume pdf
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
     anchor.download = 'Jadhav_Sushant_Resume'; // Set the download filename
@@ -23,7 +23,7 @@ const Home = () => {
 
        <button id="mybt" class="btn btn-secondary" onClick={handleDownloadResume}>Download Resume</button>
     </div>
-  )
+  ) 
 }
 
 export default Home

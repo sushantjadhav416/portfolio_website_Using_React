@@ -3,6 +3,8 @@ import './App.css';
 import './style.css';
 import Nav_Header from './Component/Nav_Header';
 
+
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,6 +17,7 @@ import About_me from './Pages/About_me';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills/Skills';
 import Footer from './Component/Footer';
+import Aboutme2 from './Pages/Aboutme2/About';
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/Skills" element={<Skills/>}/>
-            <Route path="/About" element={<About_me/>}/>
+            <Route path="/About" element={<Aboutme2/>}/>
             <Route path="/projects" element={<Projects/>}/>
         </Routes> 
         <Footer></Footer>
