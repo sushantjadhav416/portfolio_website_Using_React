@@ -1,65 +1,23 @@
 # Portfolio Website Development using React and Containerization using docker tool.
-This is portfolio application built using React .
+A simple web application to showcase my skills and projects.
 
 ## Screenshot
 ![Alt text](Aplication_image.png)
 
-## Prerequisites:
-- React application 
-- Docker Installed on your system.
+## Project Description:
+I designed and developed a personal portfolio website to highlight my unique skills and achievements. The website features an eye-catching layout, showcasing my best work, and crafting a compelling brand story. By creating this platform, I aimed to make a lasting impression on potential clients and employers. The portfolio includes essential pages such as an organized home page, About me page , project page and additional content that sets me apart. Through this project, I demonstrated my ability to create an impactful digital presence and effectively communicate my value proposition. 🚀
+
+## Installation
+1. Clone this repository: `git clone https://github.com/your-username/your-portfolio-app.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
 
 ## Containerization of Application
 For containerizing our application we need to write a effective dockerfile for containerization .
 we are using Multi-stage Build Approach to containerize our application .
 
-### Multi-Stage Build 
-Multistage builds offer a great way to streamline Docker images, making them smaller and more secure. We have taken our Dockerfile and improved it by using a multi-stage build. This allows us increase the security of our image by removing the build dependencies from the final image. The final image is now much smaller and only contains the files needed to run the application. The image size has been reduced from 1.7GB to 200MB.
 
-Here is the new Dockerfile with the multi-stage build:
 
-1. Stage 1: Build the application
-   
-FROM node:21.5-alpine3.18 AS builder
-
-- Set the working directory for the build stage
-  
-WORKDIR /app
-
-- Copy package.json and package-lock.json
-  
-COPY package*.json ./
-
-- Install dependencies
-  
-RUN npm install
-
-- Copy the application source code into the container
-  
-COPY . .
-
-- Build the application
-  
-RUN npm run build
-
-2. Stage 2: Create the final image
-   
-FROM nginx:1.20
-
--  Set the working directory within the container
-  
-WORKDIR /app
-
-- Copy the built application files from the builder stage to the nginx html directory
-  
-COPY --from=builder /app/build /usr/share/nginx/html
-
-- Expose port 80 for the web server
-  
-EXPOSE 80
-
-- Start nginx in the foreground
-  
-CMD ["nginx", "-g", "daemon off;"]
 
 
 
