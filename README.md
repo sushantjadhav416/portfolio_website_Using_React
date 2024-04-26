@@ -1,6 +1,9 @@
 # Portfolio Website Development using React and Containerization using docker tool.
 This is portfolio application built using React .
 
+## Screenshot
+![Alt text](Aplication_image.png)
+
 ## Prerequisites:
 - React application 
 - Docker Installed on your system.
