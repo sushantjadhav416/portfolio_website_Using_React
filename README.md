@@ -13,7 +13,7 @@ I designed and developed a personal portfolio website to highlight my unique ski
 3. Start the development server: `npm start`
 
 ## Containerization of Application
-For containerizing this application, firts thing needed is writing a effective dockerfile for containerization .I am using Multi-stage Build Approach to containerize our application .
+For containerizing this application, first thing needed is writing a effective dockerfile for containerization .I am using Multi-stage Build Approach to containerize our application.
 
 
 
